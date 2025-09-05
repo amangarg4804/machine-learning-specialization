@@ -104,7 +104,7 @@ or
 f = w @ x + b
 ```
 - Both codes above are doing same thing, they are calculating dot product using vectorization, which is fast, because *numpy* library is doing calculations in `C` language under the hood. And the code is  also short.
-- *Numpy* do *dot product* parallely at same time for all values of both numpy arrays.
+- *Numpy* do *dot product* parallely (using parallel hardware on CPU or GPU) at same time for all values of both numpy arrays.
 - `@` in 2nd code, means dot product.
 
 **Note:** Use `@` only with *numpy **arrays***.
