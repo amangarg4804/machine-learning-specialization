@@ -40,11 +40,11 @@ where:
 |       $w_1$       |    `0.1`    |       $x_1$       |   *house size*    |
 |       $w_2$       |     `4`     |       $x_2$       | *no. of bedrooms* |
 |       $w_3$       |    `10`     |       $x_3$       |  *no. of floors*  |
-|       $w_4$       |    `-2`     |       $x_4$       |   *house size*    |
+|       $w_4$       |    `-2`     |       $x_4$       |   *age of house*    |
 - `80` is base price
 > If the model is trying to predict  the price of the house in thousands of dollars, you can think of this `b` equals `80` as saying that the base price of a house starts off at maybe `$80,000`, assuming it has no size, no bedrooms, no floor and no age. ~ *Andrew Ng*
 > 
-> You can think of `0.1` is for every additional *square foot*, so the price will increase by `0.1%` or `$100`. `4` for each *bedroom*. `10` for each *floor*. `-2` for *house size*, that means the price maybe decrease by `$2000`. ~ *Andrew Ng*
+> You can think of `0.1` is for every additional *square foot*, so the price will increase by `0.1%` or `$100`. `4` for each *bedroom*. `10` for each *floor*. `-2` for *age of house*, that means the price maybe decrease by `$2000`. ~ *Andrew Ng*
 
 Let's rewrite the formula in a simple way:
 - By defining $\vec{w}$ , as a vector (list of weights) like this:

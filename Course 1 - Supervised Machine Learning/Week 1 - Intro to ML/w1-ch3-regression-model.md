@@ -67,7 +67,7 @@ To determine the error(difference) in predicted value and actual value, we use c
 > 
 > In machine learning *parameters* of the model are the *variables* you can adjust during training in order to improve the model.
 > These parameters are also known as *weights* or *coefficients*. ~ *Andrew Ng*
-
+> In the Jupiter lab, was called *weight* and b was called *bias*
 These **weights** help us to determine the best fit of *regression line* in our **linear regression** model, so that it can predict the best value for our **target** variable.
 
 Let's see the `regression line` with different values of `w` and `b` in *linear regression* function:

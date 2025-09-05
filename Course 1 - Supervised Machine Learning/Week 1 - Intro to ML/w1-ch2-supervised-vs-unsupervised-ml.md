@@ -59,7 +59,10 @@ We use **Classification** algorithm to predict qualitative (categories/classes) 
 
 <img src="./images/classification.png" width="500px" alt="classification">
 
-Example:
+- In Summary, the classification algorithm predict categories. It could be non-numeric
+- It is different from regression because it predicts a small finite limited set of output categories such as 0,1,2 but not all possible number like 0.5, 1.7 etc
+
+- Example:
 1. Breast Cancer (Yes / No) (Malignant / bengin)
 2. Image recognition (Cat or Dog)
 
@@ -71,7 +74,6 @@ Example:
 |        Species of Plant         |     ❌     |       ✅      |
 |        Fake news or not         |     ❌     |       ✅      |
 |      Temperature on Sunday      |     ✅     |       ❌      |
-
 
 ---
 
