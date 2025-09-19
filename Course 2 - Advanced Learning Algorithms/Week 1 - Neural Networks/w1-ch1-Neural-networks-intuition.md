@@ -112,7 +112,7 @@ The performance we are measuring is the performance of different techniques of m
 1. As we are feeding up more data, the traditional machine-learning algorithms, such as _logistic regression_ and _linear regression_, are not performing good. Because they just can't able to scale with the amount of data we could feed it and they can't able to take effective advantage of all this data we had for different applications.
 
 2. What AI researchers observe that if we were to train a small **neural network** on large amount of data, then the performance increase but not that much.
-3. And if we were to train a medium-sized **neural network** on large amount of data, it's performance will increase sligtly better than a small **neural network**.
+3. And if we were to train a medium-sized **neural network** (meaning one with more neurons in it) on large amount of data, it's performance will increase sligtly better than a small **neural network**.
 4. And if we were to train a very large **neural network**, to take advantage of that huge amount of data we have, then we could attain performance on anything ranging from _speech recognition_ to _image recognition_ to _natural language processing_ applications and many more.
 
 So, this cause _deep learning_ to take the advantage off, and rise of faster **CPUs** and **GPUs**.
