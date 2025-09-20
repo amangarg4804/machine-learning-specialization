@@ -36,7 +36,7 @@ $$z = \vec{w} \cdot \vec{x} + b$$
 
 3. Each neuron will take all input features $\vec{x}$ and use _sigmoid function_ to get the output.
 4. For $1^{st}$ neuron, we'll pass the parameters $\vec{w}$ and $b$ as $\vec{w}_1$ and $b_1$.
-5. And it's output will be $0.3$.
+5. And it's output will be $0.3$. (There is 0.3 chance of this being highly affordable based on input features)
 
 <img src="./image/../images/nn_layer_3.jpg" alt="neural network layer 1 of demand prediction" width="600px">
 
