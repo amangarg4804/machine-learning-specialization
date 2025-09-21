@@ -54,7 +54,7 @@ import numpy as np
 from tensorflow.keras.layers import Dense
 ```
 
-7. If we input $\vec{x} = \begin{bmatrix} 200 \\ 17 \end{bmatrix}$, where the _temperature_ is $200\degree$ celsius and the _duration_ is $17$ minutes, the code will be:
+7. If we input $\vec{x} = \begin{bmatrix} 200 \\ 17 \end{bmatrix}$, where the _temperature_ is $200^\circ$ Celsius and the _duration_ is $17$ minutes, the code will be:
 
 ```python
 x = np.array([[200.0, 17.0]])
