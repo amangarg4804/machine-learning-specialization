@@ -111,6 +111,9 @@ In above code,
 2. We are passing `a_in` as input data,
 3. `W` as weights in a matrix where each column is each neuron's weight, `b` as biases.
 4. `g` is an activation function, example: `sigmoid`.
+5.  `W.shape[1]` . Since `W` is a 2x3 matrix. Number of columns is 3. `shape[1]` is used to pull the number of columns (units  in this layer)
+6. `np.zeros(units)` creates an array of Zeros with length equals number of units.
+7. `W=W[:,j]` is how you pull out jth column of a matrix in python. So, first time when j=0, it will pull out first column of `W`. 
 
 Let's create a neural network by creating a `Sequential` function for $4$ layers.
 
