@@ -134,7 +134,7 @@ We know that $a_2 = 1 - a_1$, which is the probability of $y$ being $0$.
 
 $$Loss = - y \log(a_1) - (1 - y) log(a_2)$$
 
-Where, $-y\log(a_1)$ will result when $y=1$, and $-y\log(a_2)$ will result when $y=0$.
+Where, $-\log(a_1)$ will result when $y=1$, and $-\log(a_2)$ will result when $y=0$.
 $$Loss = \underbrace{- y \log(a_1)}_{y=1} - (1 \underbrace{- y) log(a_2)}_{y=0}$$
 
 The _loss_ will be calculated for each value of $y$ and it's _cost function_ will be calculated by calculating the average of all the loss values.
