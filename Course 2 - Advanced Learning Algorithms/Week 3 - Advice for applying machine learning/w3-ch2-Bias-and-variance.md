@@ -398,12 +398,10 @@ Opposite to above, if our model have less features, then the model will depend o
 Similar to above, if we have few features, and have simple model, then the model may underfit like [this](#learning-curves-for-high-bias) and have **High Bias**. So, by adding polynomial features, our model can fit the data better and hence have **Low Bias**.
 
 #### 5. Try decreasing $\lambda$
-If we have high value of $\lambda$, then the value of *weights* will not be penalized, so *regularized term* in the *cost* function will not have much effect and hence the model will have **High Bias**, due to *underfitting*. So by decreasing the value of $\lambda$, we can reduce the **High Bias**.
+Decreasing Lambda means to use a lower value for the regularization parameter. That means we're going to pay less attention to this term and pay more attention to this term to try to do better on the training set. Again, that helps you to fix a **high bias** problem. 
 
 #### 6. Try increasing $\lambda$
-Opposite to above, if we have small value of $\lambda$, then the value of *weights* may reduce to $0$, and the *weights* in the model doesn't effect at all, and hence the model will have **High Variance**, due to *overfitting*. So by increasing the value of $\lambda$, we can reduce the **High Variance**.
-
----
+Increasing Lambda, well that's the opposite of above, but that says you're overfitting the data. Increasing Lambda will make sense if is overfitting the training set, just putting too much attention to fit the training set, but at the expense of generalizing to new examples, and so increasing Lambda would force the algorithm to fit a smoother function, may be less wiggly function and use this to fix a high variance problem.
 
 ### Bias-Variance Tradeoff
 
